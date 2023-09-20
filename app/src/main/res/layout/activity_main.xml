@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+
+    >
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/weightButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonone"
+
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="15dp"
+        android:text="Weight,Mass Converter"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+         />
+
+    <Button
+        android:layout_marginBottom="20dp"
+        android:id="@+id/tempButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/buttonfour"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="15dp"
+        android:text="Temperature_Conveter"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_marginBottom="20dp"
+        android:id="@+id/friendButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/buttontwo"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="15dp"
+        android:text="Friendship Calculator"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/currencyButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/buttonsix"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="15dp"
+        android:text="Currency Convereter"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+         />
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/lengthButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/buttonseven"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="15dp"
+        android:text="Length Converter"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+         />
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/ageCalculator"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/buttonthree"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="15dp"
+        android:text="Age Calculator"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>
